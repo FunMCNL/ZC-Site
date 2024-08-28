@@ -1,44 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZintuigenCraft</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-        html {
-            font-family: "Lobster Two", sans-serif;
-            background: url("assets/img/background.png") no-repeat;
-            background-size: cover;
-            text-shadow: rgba(0, 0, 0, 0.514) 4px 3px 2px;
-        }
-
-        html, body, .center {
-            height: 100%;
-        }
-
-        .center {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        h1 {
-            color: #b00e0b;
-            font-size: 10vh;
-        }
-
-        p {
-            color: #d3b9b8;
-            font-size: 5vh;
-        }
-    </style>
+    <title>Pardoes is er mee bezig!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
 </head>
+
 <body>
-    <div class="center">
-        <h1>Druk, druk, druk...</h1>
-        <p>Pardoes is druk bezig met een nieuwe website. Kom later terug!</p>
+    <div class="flex">
+        <div class="text">
+            <h1>Oh jee!</h1>
+            <p>Deze pagina is op het moment niet beschikbaar!</p>
+            <p>Ik ben er op het moment druk bezig om dit op te lossen.</p>
+            <p>Met vriendelijke groet, Pardoes</p>
+            <div class="ip">
+                <p>Server ip:</p>
+                <p>server.zintuigencraft.nl</p>
+                <p>1.20.4</p>
+            </div>
+        </div>
+    </div>
+
     </div>
 </body>
+
 </html>
+
+<style>
+    body {
+        background: url(assets/img/pardoes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    h1 {
+        color: white;
+        font-size: 70px;
+    }
+
+    p {
+        font-family: merriweather, sans-serif;
+        font-size: 20px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 200px;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .text {
+        width: 30%;
+        background-color: #AB1818;
+        color: white;
+        border-radius: 20px;
+        padding: 40px;
+        font-family: Lobster, cursive;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ip {
+        margin-top: 40px;
+        width: 70%;
+        padding: 2px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+
+    }
+</style>
